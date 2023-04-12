@@ -1,0 +1,44 @@
+.main-div{
+    display: flex;
+    width:1000px;
+    margin:20px auto;
+    box-shadow: 0 0 10px black;
+    height: 450px;
+    border-radius: 20px;
+}
+.left{
+    width:30%;
+    /* background-color:blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    border-radius: 20px;
+
+}
+.right{
+    width:70%;
+    padding:20px;
+    background-color: rgb(188, 143, 127);
+    border-radius: 20px;
+
+    /* background-color: aquamarine; */
+}
+.right-style{
+    display: flex;
+}
+dl{
+    padding:5px
+}
+.link{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color:black;
+}
+img{
+    width:100px;
+    height: 100px;
+    margin-top: 165px;
+}
